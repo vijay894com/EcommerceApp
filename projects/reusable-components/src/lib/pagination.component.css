@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px;
+ }
+ 
+ .arrow {
+     font-size: 24px;
+     cursor: pointer;
+     margin: 7px;
+ }
+ 
+ .right {
+     margin-right: 13px; /* Optional: Adjust space for the right arrow */
+ }
+ 
+ .col {
+     display: flex;
+     align-items: center; /* Vertically aligns content inside each column */
+ }
+ 
