@@ -61,6 +61,16 @@
                 "defaultValue": "{}"
             },
             {
+                "name": "LoggedOut",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/reusable-components/src/stories/table.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{}"
+            },
+            {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -99,6 +109,16 @@
                 "deprecationMessage": "",
                 "type": "Meta<PaginationComponent>",
                 "defaultValue": "{\n  title: 'Example/Pagination',\n  component: PaginationComponent,\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout\n    layout: 'fullscreen',\n  },\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/reusable-components/src/stories/table.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<tableComponent>",
+                "defaultValue": "{\n  title: 'Example/Table',\n  component: tableComponent,\n  parameters: {\n    layout: 'fullscreen',\n  },\n}"
             },
             {
                 "name": "paginationDefault",
@@ -192,6 +212,17 @@
                 "subtype": "typealias",
                 "rawtype": "StoryObj<PaginationComponent>",
                 "file": "projects/reusable-components/src/stories/pagination.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<tableComponent>",
+                "file": "projects/reusable-components/src/stories/table.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -316,6 +347,28 @@
                     "defaultValue": "{\n  title: 'Example/Page',\n  component: PageComponent,\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout\n    layout: 'fullscreen',\n  },\n}"
                 }
             ],
+            "projects/reusable-components/src/stories/table.stories.ts": [
+                {
+                    "name": "LoggedOut",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/reusable-components/src/stories/table.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/reusable-components/src/stories/table.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<tableComponent>",
+                    "defaultValue": "{\n  title: 'Example/Table',\n  component: tableComponent,\n  parameters: {\n    layout: 'fullscreen',\n  },\n}"
+                }
+            ],
             "projects/reusable-components/src/stories/pagination.stories.ts": [
                 {
                     "name": "meta",
@@ -400,6 +453,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<PaginationComponent>",
                     "file": "projects/reusable-components/src/stories/pagination.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "projects/reusable-components/src/stories/table.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<tableComponent>",
+                    "file": "projects/reusable-components/src/stories/table.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -585,6 +651,36 @@
             },
             {
                 "filePath": "projects/reusable-components/src/stories/pagination.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/reusable-components/src/stories/table.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "LoggedOut",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/reusable-components/src/stories/table.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/reusable-components/src/stories/table.stories.ts",
                 "type": "type alias",
                 "linktype": "miscellaneous",
                 "linksubtype": "typealias",
